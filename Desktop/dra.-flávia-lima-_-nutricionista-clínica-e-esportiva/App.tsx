@@ -2,20 +2,19 @@
 import React, { useState } from 'react';
 import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { 
-  Menu, X, Phone, Instagram, MapPin, 
-  ChevronRight, Calendar, User, BookOpen, 
-  LayoutDashboard, LogOut, CheckCircle2 
+  Menu, X, Phone, User, 
+  Activity, Utensils
 } from 'lucide-react';
 
 // Components
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Schedule from './pages/Schedule';
-import Blog from './pages/Blog';
-import PatientArea from './pages/PatientArea';
-import Contact from './pages/Contact';
-import Footer from './components/Footer';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
+import Services from './pages/Services.tsx';
+import Schedule from './pages/Schedule.tsx';
+import Blog from './pages/Blog.tsx';
+import PatientArea from './pages/PatientArea.tsx';
+import Contact from './pages/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
