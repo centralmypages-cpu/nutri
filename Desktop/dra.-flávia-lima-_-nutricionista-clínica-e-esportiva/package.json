@@ -5,10 +5,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx serve .",
-    "build": "echo 'No build step needed for CDN-based project'",
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r * dist/ 2>/dev/null || true",
     "start": "npx serve ."
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
