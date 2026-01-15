@@ -3,9 +3,5 @@
   "name": "site-nutri-flavia-lima",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/ && cp -r * dist/ 2>/dev/null || true",
-    "start": "npx serve ."
-  }
+  "type": "module"
 }
