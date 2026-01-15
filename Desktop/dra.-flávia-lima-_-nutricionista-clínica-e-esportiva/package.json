@@ -1,0 +1,14 @@
+
+{
+  "name": "site-nutri-flavia-lima",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step needed for CDN-based project'",
+    "start": "npx serve ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

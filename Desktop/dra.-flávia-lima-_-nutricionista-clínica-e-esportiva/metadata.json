@@ -1,0 +1,11 @@
+
+{
+  "name": "Dra. Flávia Lima | Nutricionista Clínica e Esportiva",
+  "description": "Plataforma profissional de nutrição. Agende sua consulta e acesse sua área exclusiva de paciente para dietas e treinos personalizados.",
+  "requestFramePermissions": [],
+  "openGraph": {
+    "title": "Dra. Flávia Lima - Nutrição de Alta Performance",
+    "description": "Transforme sua saúde com planos alimentares inteligentes e acompanhamento profissional.",
+    "type": "website"
+  }
+}
